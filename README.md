@@ -29,3 +29,20 @@ The lab introduces Metasploitable 2, a purposely vulnerable VM, guiding users th
 #### Figure 2: ping 10.0.2.4 on Kali VM to verify connectivity to Metasploit
 ![image](https://github.com/Mutimber/Metasploitable-2/assets/113706552/c8143701-6ef5-4860-af57-5653fb655bb6)
 
+## Lab Quiz
+1. Which company created Metasploit and Metasploitable 2?
+   Rapid 7
+2. How many TCP ports are OPEN on MS2? (Use the -sT flag in Nmap).
+   23 open TCP ports
+   ![image](https://github.com/Mutimber/Metasploitable-2/assets/113706552/28f90f99-c9f7-40b6-b84f-baeb684b08fa)
+3. How many UDP ports are OPEN on MS2? (Use the -sU flag in Nmap – this may take a while). 7
+   ![image](https://github.com/Mutimber/Metasploitable-2/assets/113706552/7283142e-bde3-441b-8987-6ecb52dbcee1)
+
+4. What port is running a Metasploitable Root Shell? (Use the -sV flag in Nmap). 1524
+   ![image](https://github.com/Mutimber/Metasploitable-2/assets/113706552/193e8bee-449e-41d2-87aa-eef89141e72e)
+
+5. What non-standard port is FTP running on? (NOT p21) (Use the -sT flag in Nmap). 2121
+   ![image](https://github.com/Mutimber/Metasploitable-2/assets/113706552/2e4dd879-0203-4c9a-b14e-fe81435ef261)
+
+6. What version of FTP is running on the non-standard port? (Use the -sV flag in Nmap). ProFTPD 1.3.1
+![image](https://github.com/Mutimber/Metasploitable-2/assets/113706552/d83b525c-cbe4-4e8f-9af8-2a19128c3e2e)
